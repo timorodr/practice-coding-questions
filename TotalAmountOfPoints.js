@@ -40,3 +40,5 @@ function points(games) {
   }
 
 console.log(points(games))
+
+
