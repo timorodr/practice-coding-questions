@@ -31,13 +31,16 @@ from typing import List
 
 nums = [1,2,1]
 
-class Solution:
-    def getConcatenation(self, nums: List[int]) -> List[int]:
-        ans = []
-        for i in range(2):
-            for num in nums:
-                ans.append(num)
-        return ans
+# class Solution:
+def getConcatenation(nums: List[int]) -> List[int]:
+    ans = []
+    for i in range(2):
+        for num in nums:
+            ans.append(num)
+    return ans
 
-solution = Solution()
-print(solution.getConcatenation(nums))
+# solution = Solution()
+print(getConcatenation(nums))
+
+
+
